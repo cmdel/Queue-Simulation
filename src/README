@@ -1,8 +1,0 @@
-For this assignment, different scenarios for managing a bank queue were requested from the bank manager. The first scenario involved a queue with single server with an exponential distribution for arrival. The average of customers arriving was 19 per hour. The completion times were given by an Erlang distribution. The number of customers served per hour were 20. The day in all simulations was taken to last 8 work-hours. The result of this scenario was that out of 164 arrivals, all customers were served with 85.4% (140 customers) having waited more than 6 minutes in the queue.
-
-The second scenario  involved extending the queue to multiple servers.  An ArrayList was used to keep track of servers’ status and time of completion.  This scenario produced non optimal results, since there ware 22.8% of customers waiting more than 6 minutes. The maximum queue for this scenario was 17 customers.
-
-The third and final scenario was to implement different average numbers of customers for each of the 8 hours in the work day. The additional decision was to implement a strategy of opening and closing server positions when demand increases.  The demand criterion was selected to be the length of the queue at any given time. There were different scenarios to try out, but the sole setting that met the constraint was when the queue did not exceed 6 customers.
-
-
-More information at: http://delivorias.me/2011/02/06/discrete-time-bank-queue-simulation/
